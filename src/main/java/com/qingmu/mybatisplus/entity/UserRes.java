@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * @since 2020-11-14
  * Copyright (C), 2017-2019, 网联商务
  */
-public class User implements Serializable {
+public class UserRes implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -28,7 +28,6 @@ public class User implements Serializable {
     /**
      * 姓名
      */
-    @History
     private String name;
 
     /**
