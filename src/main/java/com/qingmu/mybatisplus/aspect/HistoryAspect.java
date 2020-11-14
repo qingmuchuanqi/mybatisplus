@@ -1,6 +1,5 @@
 package com.qingmu.mybatisplus.aspect;
 
-import com.qingmu.mybatisplus.entity.User;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
