@@ -1,0 +1,9 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/mybatis?autoReconnect=true&allowMultiQueries=true&serverTimezone=Hongkong&characterEncoding=UTF8
+      name: mybatis
+      username: root
+      password: root
