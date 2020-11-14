@@ -29,10 +29,11 @@ public class IndexController {
 
     @RequestMapping(value = "/test2", method = RequestMethod.POST)
     public UserRes test2(@RequestBody  User user) {
-        System.out.println(user.toString());
+        System.out.println("test2"+user.toString());
         UserRes user2 = new UserRes();
-        user2.setAge(25);
-        user2.setName("阿达");
+        user2.setAge(user.getAge());
+        user2.setName(user.getName());
+        user2.setCreatTm(user.getCreatTm());
         return user2;
     }
 }
