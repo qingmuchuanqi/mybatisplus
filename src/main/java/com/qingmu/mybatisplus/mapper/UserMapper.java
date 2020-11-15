@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
  *
  * @author 
  * @since 2020-11-14
- * Copyright (C), 2017-2019, 网联商务
  */
 @Repository public interface UserMapper extends BaseMapper<User> {
 

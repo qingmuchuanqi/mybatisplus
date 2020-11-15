@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
  *
  * @author
  * @since 2020-11-14
- * Copyright (C), 2017-2019, 网联商务
  */
 public class UserRes implements Serializable {
 

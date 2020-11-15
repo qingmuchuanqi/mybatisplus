@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
  *
  * @author ${author}
  * @since ${date}
- * Copyright (C), 2017-2019, 网联商务
  */
 @Service
 #if(${kotlin})

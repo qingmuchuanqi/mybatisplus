@@ -3,7 +3,6 @@ package com.qingmu.mybatisplus.conf;
 import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,9 +16,9 @@ import org.springframework.stereotype.Component;
 public class MybatisPlusConfig {
     /**
      * SQL执行效率插件
+     *  配置在测试环境和开发环境： @Profile({"dev", "test"})
      */
     @Bean
-//    @Profile({"dev", "test"})
     public PerformanceInterceptor performanceInterceptor() {
         return new PerformanceInterceptor();
     }

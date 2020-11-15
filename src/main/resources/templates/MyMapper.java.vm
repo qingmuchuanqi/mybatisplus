@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
  *
  * @author ${author}
  * @since ${date}
- * Copyright (C), 2017-2019, 网联商务
  */
 #if(${kotlin})
 interface ${table.mapperName} : ${superMapperClass}<${entity}>
