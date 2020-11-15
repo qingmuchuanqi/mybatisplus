@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  *  Mapper 接口
  * </p>
  *
- * @author 
+ * @author qingmu
  * @since 2020-11-14
  */
 @Repository public interface UserMapper extends BaseMapper<User> {

@@ -2,19 +2,11 @@ package com.qingmu.mybatisplus.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.qingmu.mybatisplus.annotion.History;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- *
- * </p>
- *
- * @author
- * @since 2020-11-14
- */
+
 public class UserRes implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Description：
+ * Description：远程调用方法
  *
  * @author lida
  * @date: created in 2020-11-14 8:01 下午
@@ -15,6 +15,8 @@ import org.springframework.web.client.RestTemplate;
 public class RestTemplateService {
 
     RestTemplate restTemplate = new RestTemplate();
+
+
     @History
     public <T, B> ResponseEntity<T> basicRestRequest(String url, B body, HttpMethod method, Class<T> clazz) {
         HttpHeaders headers = new HttpHeaders();
